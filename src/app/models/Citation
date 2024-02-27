@@ -1,0 +1,51 @@
+class Citation {
+    id: number;
+    type: 'book' | 'magazine' | 'sound recording' | 'video recording' | 'personal conversation';
+    author: string;
+    title: string;
+    publicationYear: number;
+    publicationPlace: string;
+    publisher: string;
+    dateOfPublication: Date;
+    pageNumbers: string;
+    publicationMedium: 'print' | 'web';
+    format: string;
+    recordingCompany: string;
+    conversationPartner: string;
+    conversationDate: Date;
+    conversationDescription: string;
+  
+    constructor(
+      id: number,
+      type: 'book' | 'magazine' | 'sound recording' | 'video recording' | 'personal conversation',
+        author: string,
+        title: string,
+        publicationYear: number,
+        publicationPlace: string,
+        publisher: string,
+        dateOfPublication: Date,
+        pageNumbers: string,
+        publicationMedium: 'print' | 'web',
+        format: string,
+        recordingCompany: string,
+        conversationPartner: string,
+        conversationDate: Date, 
+        conversationDescription: string
+        ) {
+        this.id = id;
+        this.type = type;
+        this.author = author;
+        this.title = title;
+        this.publicationYear = publicationYear;
+        this.publicationPlace = publicationPlace;
+        this.publisher = publisher;
+        this.dateOfPublication = dateOfPublication;
+        this.pageNumbers = pageNumbers;
+        this.publicationMedium = publicationMedium;
+        this.format = format;
+        this.recordingCompany = recordingCompany;
+        this.conversationPartner = conversationPartner;
+        this.conversationDate = conversationDate;
+        this.conversationDescription = conversationDescription;
+        }
+  }

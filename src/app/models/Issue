@@ -1,0 +1,17 @@
+class Issue {
+  id: number;
+  month: string;
+  year: number;
+  description: string;
+  title: string;
+  type: string;
+
+  constructor(id: number, month: string, year: number, description: string, title: string, type: string) {
+    this.id = id;
+    this.month = month;
+    this.year = year;
+    this.description = description;
+    this.title = title;
+    this.type = type;
+  }
+}

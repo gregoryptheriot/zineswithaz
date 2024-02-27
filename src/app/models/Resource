@@ -1,0 +1,13 @@
+class Resource {
+  id: number;
+  citationId: number;
+  path: string;
+  mimeType: string;
+
+  constructor(id: number, citationId: number, path: string, mimeType: string) {
+    this.id = id;
+    this.citationId = citationId;
+    this.path = path;
+    this.mimeType = mimeType;
+  }
+}
